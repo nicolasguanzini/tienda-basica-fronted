@@ -1,0 +1,134 @@
+.productoContenedor {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    width: 1100px;
+    z-index: 1;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    left: 50%;
+    margin-left: -550px;
+  }
+  
+  .columnaImagen {
+    margin-top: 60px;
+    width: 35%;
+  }
+  
+  .columnaInformacion {
+    margin-top: 60px;
+    width: 50%;
+    margin-left: 50px;
+  }
+  
+  .columnaImagen img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: auto;
+  }
+  
+  .informacionProducto {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tituloProducto {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  
+  .precioProducto {
+    font-size: 1.8rem;
+    color: #0a9878;
+  }
+  
+  .cantidad {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .formulario {
+    display: flex;
+    height: 40px;
+  }
+  
+  .addcart {
+    margin-left: 20px;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #0a9878;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .addcart:hover {
+    background-color: white;
+    color: #0a9878;
+    transition: 0.3s;
+    border: #0a9878 solid 2px;
+  }
+  
+  #cantidad {
+    width: 70px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: rgb(221, 221, 221) solid 2px;
+    border-radius: 9%;
+  }
+  
+  #cantidad:target {
+    border: rgb(221, 221, 221) solid 2px;
+  }
+  
+  .descripcion {
+    margin-top: 30px;
+  }
+  
+  @media only screen and (max-width: 1115px) {
+    .productoContenedor {
+      margin: auto;
+      background-color: white;
+      width: 100%;
+      z-index: 1;
+      margin-top: 100px;
+      padding-bottom: 30px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      position: absolute;
+      left:0%;
+    }
+  
+    .columnaImagen {
+      margin-top: 60px;
+      width: 40%;
+    }
+  
+    .columnaInformacion {
+      margin-top: 60px;
+      width: 60%;
+      margin-left: 5px;
+    }
+  
+    .columnaImagen img {
+      display: block;
+      margin: auto;
+      width: 80%;
+      height: auto;
+    }
+  
+    .informacionProducto {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
