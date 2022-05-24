@@ -45,15 +45,10 @@ const NavBar = (props) => {
       <header>
         <div className="nav">
 
-        
-
           <div className="menu">
             <h2 onClick={() => props.setMenu('Home')} className="titulo">
               NicoShop
             </h2>
-
-            
-            
 
             <span onClick={() => props.setMenu('Mens')}>MEN's CLOTHING</span>
             <span onClick={() => props.setMenu('Womens')}>
