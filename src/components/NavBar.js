@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import '../styles/NavBar.scss';
 import { MyContext } from './context';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import logo from "../images/logo.png";
 
 const NavBar = (props) => {
   const [clasesCarrito, setClasesCarrito] = React.useState('shopping-cart');
@@ -69,7 +70,7 @@ const NavBar = (props) => {
             <span>
               <img
                 style={{ position: 'relative', width: '25px', top: '5px' }}
-                src="https://i.ibb.co/nwQfwrm/logo.png"
+                src={logo}
                 alt="logo"
               />
             </span>
