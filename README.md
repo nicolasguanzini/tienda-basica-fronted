@@ -21,4 +21,4 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## Puedes encontrar una version online de esta tienda en este link
 
-https://shopping-express-react-mongo2.nicolasguanzini.repl.co
+https://tienda-backend.nicolasguanzini.repl.co/
