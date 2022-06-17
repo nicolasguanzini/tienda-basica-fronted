@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Aprendiendo ReactJS
+Primer proyecto en React en el que me conecto a un backend con base de datos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
