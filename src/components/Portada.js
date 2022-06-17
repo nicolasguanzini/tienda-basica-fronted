@@ -9,7 +9,7 @@ const Portada = (props) => {
 
     setCargando(true);
 
-  fetch("https://shopping-express-react-mongo2.nicolasguanzini.repl.co/api")
+  fetch("https://tienda-backend.nicolasguanzini.repl.co/api")
     .then(res=>res.json())
     .then((json)=>{
       
